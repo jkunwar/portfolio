@@ -561,7 +561,7 @@ ul {
 
 /* ================ css for blog-section starts here ================ */
 .blog-section {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 
 .blog-column {
@@ -659,7 +659,7 @@ ul {
 
 .contact-form input {
   width: calc(100% - 25px);
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 11px;
   border: 1px solid #ced4da;
   border-radius: 5px;
