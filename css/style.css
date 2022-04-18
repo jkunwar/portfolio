@@ -128,7 +128,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/banner.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/banner.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -671,7 +671,7 @@ ul {
   padding: 7px;
   height: 100px;
   resize: none;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #495057;
   border-radius: 5px;
 }
@@ -720,19 +720,22 @@ ul {
   font-size: 15px;
 }
 
-.info-inner {
-  margin-bottom: 12px;
-}
-
 .info-inner span {
   color: #4087BE;
   margin-right: 10px;
   font-size: 17px;
 }
 
+.info-inner a {
+  color: #4e4e4e;
+}
+
 .info-inner {
+  margin-bottom: 12px;
   color: #4e4e4e;
   font-size: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .socials-link ul li {
